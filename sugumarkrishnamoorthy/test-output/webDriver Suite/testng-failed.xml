@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [webDriver Suite]">
+  <test name="wordpressTestCase(failed)">
+    <classes>
+      <class name="drivers.DriverClass">
+        <methods>
+          <include name="closeAllBrowser"/>
+          <include name="TestCase"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- drivers.DriverClass -->
+    </classes>
+  </test> <!-- wordpressTestCase(failed) -->
+</suite> <!-- Failed suite [webDriver Suite] -->

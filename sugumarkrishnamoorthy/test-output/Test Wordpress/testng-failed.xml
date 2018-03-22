@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Test Wordpress]">
+  <test name="Wordpress Test(failed)">
+    <classes>
+      <class name="drivers.RunManager">
+        <methods>
+          <include name="TestCase"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- drivers.RunManager -->
+    </classes>
+  </test> <!-- Wordpress Test(failed) -->
+</suite> <!-- Failed suite [Test Wordpress] -->

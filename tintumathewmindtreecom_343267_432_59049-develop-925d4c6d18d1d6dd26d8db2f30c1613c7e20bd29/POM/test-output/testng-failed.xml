@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [WebTour]">
+  <test name="WebTour Tests(failed)">
+    <classes>
+      <class name="com.project.webtours.Testcases.LoginTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="start"/>
+          <include name="report"/>
+          <include name="browserSetup"/>
+        </methods>
+      </class> <!-- com.project.webtours.Testcases.LoginTest -->
+      <class name="com.project.webtours.Testcases.ReturnTicketTest">
+        <methods>
+          <include name="start"/>
+          <include name="report"/>
+          <include name="returnTicketTest"/>
+          <include name="browserSetup"/>
+        </methods>
+      </class> <!-- com.project.webtours.Testcases.ReturnTicketTest -->
+    </classes>
+  </test> <!-- WebTour Tests(failed) -->
+</suite> <!-- Failed suite [WebTour] -->

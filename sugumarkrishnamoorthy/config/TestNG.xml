@@ -1,0 +1,7 @@
+<suite name="Test Wordpress">
+	<test name="Wordpress Test">
+		<classes>
+			<class name="drivers.RunManager" />
+		</classes>
+	</test>
+</suite>

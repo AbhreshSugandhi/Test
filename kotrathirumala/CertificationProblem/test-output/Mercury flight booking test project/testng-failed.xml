@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Mercury flight booking test project]">
+  <test name="Flight booking tests(failed)">
+    <classes>
+      <class name="mercury.bookflight.testcases.MercuryTestCases">
+        <methods>
+          <include name="bookReturnFlightTickets"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- mercury.bookflight.testcases.MercuryTestCases -->
+    </classes>
+  </test> <!-- Flight booking tests(failed) -->
+</suite> <!-- Failed suite [Mercury flight booking test project] -->

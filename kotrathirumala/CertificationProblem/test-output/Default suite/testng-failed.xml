@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="mercury.bookflight.testcases.MercuryTestCases">
+        <methods>
+          <include name="sendReport"/>
+          <include name="closeBrowser"/>
+          <include name="validateLogIn"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- mercury.bookflight.testcases.MercuryTestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

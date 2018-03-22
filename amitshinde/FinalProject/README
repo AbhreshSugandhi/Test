@@ -1,0 +1,20 @@
+1. Clone the repo
+
+2. Open the repo in Eclipse and just save pom.xml to download dependencies.
+
+3. Wait till the above operation completes.
+
+4. Edit the following paths before you run the automation
+   a. 'BaseClass.java' from 'com.demoaut.mercurytours.TestCases' package::
+       - Replace the ExtentReports path(C:\\workspace\\Mercury Tours\\) in 'startReport()' method to generate automation logs and reports with your desired location
+       - Provide the 'chromedriver.exe'path where it is located in 'openBrowserTest()' method.
+
+   d. 'ReadExcel.java' from 'com.demoaut.mercurytours.Utility' package::
+       -Replace the .xlsx path(C:\\workspace\\Mercury Tours\\) in all the methods with current workspace where the .xlsx located
+
+   c. 'takeScreenshot.java' from 
+	-Replace the screenshot file path(C:\\workspace\\Mercury Tours\\) with your desired location.
+
+5. Right click on startRun.xml > Run As > TestNG Suite.
+
+6. Thats it, You made it for the day.... 

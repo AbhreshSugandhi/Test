@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="11" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="59296" started-at="2017-12-04T15:41:50Z" finished-at="2017-12-04T15:42:50Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="59296" started-at="2017-12-04T15:41:50Z" finished-at="2017-12-04T15:42:50Z">
+      <class name="com.demoaut.mercurytours.TestCases.RegisterUserTest">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.demoaut.mercurytours.TestCases.RegisterUserTest@4dfa3a9d]" name="startReport" is-config="true" duration-ms="187" started-at="2017-12-04T21:11:50Z" finished-at="2017-12-04T21:11:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="openBrowserTest()[pri:0, instance:com.demoaut.mercurytours.TestCases.RegisterUserTest@4dfa3a9d]" name="openBrowserTest" is-config="true" duration-ms="6381" started-at="2017-12-04T21:11:51Z" finished-at="2017-12-04T21:11:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserTest -->
+        <test-method status="PASS" signature="registerNewUser()[pri:0, instance:com.demoaut.mercurytours.TestCases.RegisterUserTest@4dfa3a9d]" name="registerNewUser" duration-ms="4003" started-at="2017-12-04T21:11:57Z" description="This test will perform to register new user" finished-at="2017-12-04T21:12:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewUser -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.demoaut.mercurytours.TestCases.RegisterUserTest@4dfa3a9d]" name="getResult" is-config="true" duration-ms="106" started-at="2017-12-04T21:12:01Z" finished-at="2017-12-04T21:12:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerNewUser status=SUCCESS method=RegisterUserTest.registerNewUser()[pri:0, instance:com.demoaut.mercurytours.TestCases.RegisterUserTest@4dfa3a9d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterTestCheck()[pri:0, instance:com.demoaut.mercurytours.TestCases.RegisterUserTest@4dfa3a9d]" name="afterTestCheck" is-config="true" duration-ms="265" started-at="2017-12-04T21:12:49Z" finished-at="2017-12-04T21:12:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestCheck -->
+      </class> <!-- com.demoaut.mercurytours.TestCases.RegisterUserTest -->
+      <class name="com.demoaut.mercurytours.TestCases.LoginUserTest">
+        <test-method status="PASS" signature="openBrowserTest()[pri:0, instance:com.demoaut.mercurytours.TestCases.LoginUserTest@6eebc39e]" name="openBrowserTest" is-config="true" duration-ms="6139" started-at="2017-12-04T21:12:01Z" finished-at="2017-12-04T21:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserTest -->
+        <test-method status="PASS" signature="validCredentialLogin()[pri:0, instance:com.demoaut.mercurytours.TestCases.LoginUserTest@6eebc39e]" name="validCredentialLogin" duration-ms="4314" started-at="2017-12-04T21:12:07Z" description="This test will perform login scenario with VALID username and password" finished-at="2017-12-04T21:12:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCredentialLogin -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.demoaut.mercurytours.TestCases.LoginUserTest@6eebc39e]" name="getResult" is-config="true" duration-ms="104" started-at="2017-12-04T21:12:11Z" finished-at="2017-12-04T21:12:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validCredentialLogin status=SUCCESS method=LoginUserTest.validCredentialLogin()[pri:0, instance:com.demoaut.mercurytours.TestCases.LoginUserTest@6eebc39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="openBrowserTest()[pri:0, instance:com.demoaut.mercurytours.TestCases.LoginUserTest@6eebc39e]" name="openBrowserTest" is-config="true" duration-ms="5937" started-at="2017-12-04T21:12:41Z" finished-at="2017-12-04T21:12:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserTest -->
+        <test-method status="PASS" signature="invalidCredentialLogin()[pri:1, instance:com.demoaut.mercurytours.TestCases.LoginUserTest@6eebc39e]" name="invalidCredentialLogin" duration-ms="2543" started-at="2017-12-04T21:12:47Z" description="This test will perform negative login scenario with INVALID username and password" finished-at="2017-12-04T21:12:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCredentialLogin -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.demoaut.mercurytours.TestCases.LoginUserTest@6eebc39e]" name="getResult" is-config="true" duration-ms="132" started-at="2017-12-04T21:12:49Z" finished-at="2017-12-04T21:12:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidCredentialLogin status=SUCCESS method=LoginUserTest.invalidCredentialLogin()[pri:1, instance:com.demoaut.mercurytours.TestCases.LoginUserTest@6eebc39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.demoaut.mercurytours.TestCases.LoginUserTest -->
+      <class name="com.demoaut.mercurytours.TestCases.VerifyItinerary">
+        <test-method status="PASS" signature="openBrowserTest()[pri:0, instance:com.demoaut.mercurytours.TestCases.VerifyItinerary@f6c48ac]" name="openBrowserTest" is-config="true" duration-ms="5823" started-at="2017-12-04T21:12:30Z" finished-at="2017-12-04T21:12:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserTest -->
+        <test-method status="PASS" signature="verifyBookingHistory()[pri:0, instance:com.demoaut.mercurytours.TestCases.VerifyItinerary@f6c48ac]" name="verifyBookingHistory" duration-ms="5140" started-at="2017-12-04T21:12:35Z" description="This test will check booking history and verify itinerary" finished-at="2017-12-04T21:12:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBookingHistory -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.demoaut.mercurytours.TestCases.VerifyItinerary@f6c48ac]" name="getResult" is-config="true" duration-ms="98" started-at="2017-12-04T21:12:41Z" finished-at="2017-12-04T21:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBookingHistory status=SUCCESS method=VerifyItinerary.verifyBookingHistory()[pri:0, instance:com.demoaut.mercurytours.TestCases.VerifyItinerary@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.demoaut.mercurytours.TestCases.VerifyItinerary -->
+      <class name="com.demoaut.mercurytours.TestCases.FlightBookingTest">
+        <test-method status="PASS" signature="openBrowserTest()[pri:0, instance:com.demoaut.mercurytours.TestCases.FlightBookingTest@464bee09]" name="openBrowserTest" is-config="true" duration-ms="5943" started-at="2017-12-04T21:12:12Z" finished-at="2017-12-04T21:12:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserTest -->
+        <test-method status="PASS" signature="bookFlightMethod()[pri:0, instance:com.demoaut.mercurytours.TestCases.FlightBookingTest@464bee09]" name="bookFlightMethod" duration-ms="12044" started-at="2017-12-04T21:12:18Z" description="This test will perform end to end scenario for flight booking" finished-at="2017-12-04T21:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlightMethod -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.demoaut.mercurytours.TestCases.FlightBookingTest@464bee09]" name="getResult" is-config="true" duration-ms="99" started-at="2017-12-04T21:12:30Z" finished-at="2017-12-04T21:12:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bookFlightMethod status=SUCCESS method=FlightBookingTest.bookFlightMethod()[pri:0, instance:com.demoaut.mercurytours.TestCases.FlightBookingTest@464bee09] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.demoaut.mercurytours.TestCases.FlightBookingTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

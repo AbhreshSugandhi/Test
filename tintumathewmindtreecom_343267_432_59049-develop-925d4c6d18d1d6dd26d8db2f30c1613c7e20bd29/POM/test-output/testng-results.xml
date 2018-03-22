@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="WebTour" duration-ms="30173" started-at="2018-03-15T11:21:57Z" finished-at="2018-03-15T11:22:28Z">
+    <groups>
+    </groups>
+    <test name="WebTour Tests" duration-ms="30173" started-at="2018-03-15T11:21:57Z" finished-at="2018-03-15T11:22:28Z">
+      <class name="com.project.webtours.Testcases.ReturnTicketTest">
+        <test-method status="PASS" signature="startclass()[pri:0, instance:com.project.webtours.Testcases.ReturnTicketTest@544a2ea6]" name="startclass" is-config="true" duration-ms="0" started-at="2018-03-15T16:52:23Z" finished-at="2018-03-15T16:52:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startclass -->
+        <test-method status="PASS" signature="returnTicketTest()[pri:0, instance:com.project.webtours.Testcases.ReturnTicketTest@544a2ea6]" name="returnTicketTest" duration-ms="4668" started-at="2018-03-15T16:52:23Z" finished-at="2018-03-15T16:52:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnTicketTest -->
+        <test-method status="PASS" signature="endclass()[pri:0, instance:com.project.webtours.Testcases.ReturnTicketTest@544a2ea6]" name="endclass" is-config="true" duration-ms="0" started-at="2018-03-15T16:52:28Z" finished-at="2018-03-15T16:52:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endclass -->
+      </class> <!-- com.project.webtours.Testcases.ReturnTicketTest -->
+      <class name="com.project.webtours.Testcases.LoginTest">
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:com.project.webtours.Testcases.LoginTest@7276c8cd]" name="browserSetup" is-config="true" duration-ms="4941" started-at="2018-03-15T16:51:52Z" finished-at="2018-03-15T16:51:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method status="PASS" signature="startclass()[pri:0, instance:com.project.webtours.Testcases.LoginTest@7276c8cd]" name="startclass" is-config="true" duration-ms="0" started-at="2018-03-15T16:51:57Z" finished-at="2018-03-15T16:51:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startclass -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.project.webtours.Testcases.LoginTest@7276c8cd]" name="loginTest" duration-ms="25453" started-at="2018-03-15T16:51:57Z" finished-at="2018-03-15T16:52:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="endclass()[pri:0, instance:com.project.webtours.Testcases.LoginTest@7276c8cd]" name="endclass" is-config="true" duration-ms="0" started-at="2018-03-15T16:52:23Z" finished-at="2018-03-15T16:52:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endclass -->
+        <test-method status="PASS" signature="report()[pri:0, instance:com.project.webtours.Testcases.LoginTest@7276c8cd]" name="report" is-config="true" duration-ms="6236" started-at="2018-03-15T16:52:28Z" finished-at="2018-03-15T16:52:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+      </class> <!-- com.project.webtours.Testcases.LoginTest -->
+    </test> <!-- WebTour Tests -->
+  </suite> <!-- WebTour -->
+</testng-results>
